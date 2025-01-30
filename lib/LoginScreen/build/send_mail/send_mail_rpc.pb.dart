@@ -1,0 +1,28 @@
+//
+//  Generated code. Do not modify.
+//  source: send_mail/send_mail_rpc.proto
+//
+// @dart = 2.12
+
+// ignore_for_file: annotate_overrides, camel_case_types, comment_references
+// ignore_for_file: constant_identifier_names, library_prefixes
+// ignore_for_file: non_constant_identifier_names, prefer_final_fields
+// ignore_for_file: unnecessary_import, unnecessary_this, unused_import
+
+import 'dart:async' as $async;
+import 'dart:core' as $core;
+
+import 'package:protobuf/protobuf.dart' as $pb;
+
+import 'send_mail_request.pb.dart' as $553;
+import 'send_mail_response.pb.dart' as $554;
+
+class SendMailRpcApi {
+  $pb.RpcClient _client;
+  SendMailRpcApi(this._client);
+
+  $async.Future<$554.SendMailBaseResponse> internal_SendMail($pb.ClientContext? ctx, $553.SendMailBaseRequest request) =>
+    _client.invoke<$554.SendMailBaseResponse>(ctx, 'SendMailRpc', 'internal_SendMail', request, $554.SendMailBaseResponse())
+  ;
+}
+

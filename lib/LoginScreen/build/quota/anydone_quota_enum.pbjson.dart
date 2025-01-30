@@ -1,0 +1,133 @@
+//
+//  Generated code. Do not modify.
+//  source: quota/anydone_quota_enum.proto
+//
+// @dart = 2.12
+
+// ignore_for_file: annotate_overrides, camel_case_types, comment_references
+// ignore_for_file: constant_identifier_names, library_prefixes
+// ignore_for_file: non_constant_identifier_names, prefer_final_fields
+// ignore_for_file: unnecessary_import, unnecessary_this, unused_import
+
+import 'dart:convert' as $convert;
+import 'dart:core' as $core;
+import 'dart:typed_data' as $typed_data;
+
+@$core.Deprecated('Use quotaContextTypeDescriptor instead')
+const QuotaContextType$json = {
+  '1': 'QuotaContextType',
+  '2': [
+    {'1': 'QUOTA_CONTEXT_TYPE_UNSPECIFIED', '2': 0},
+    {'1': 'QUOTA_CONTEXT_TYPE_FLOWCESS', '2': 1},
+    {'1': 'QUOTA_CONTEXT_TYPE_CRM', '2': 2},
+    {'1': 'QUOTA_CONTEXT_TYPE_MESSAGE', '2': 3},
+    {'1': 'QUOTA_CONTEXT_TYPE_TICKET', '2': 4},
+    {'1': 'QUOTA_CONTEXT_TYPE_PAPER', '2': 5},
+    {'1': 'QUOTA_CONTEXT_TYPE_EXTERNAL', '2': 6},
+  ],
+};
+
+/// Descriptor for `QuotaContextType`. Decode as a `google.protobuf.EnumDescriptorProto`.
+final $typed_data.Uint8List quotaContextTypeDescriptor = $convert.base64Decode(
+    'ChBRdW90YUNvbnRleHRUeXBlEiIKHlFVT1RBX0NPTlRFWFRfVFlQRV9VTlNQRUNJRklFRBAAEh'
+    '8KG1FVT1RBX0NPTlRFWFRfVFlQRV9GTE9XQ0VTUxABEhoKFlFVT1RBX0NPTlRFWFRfVFlQRV9D'
+    'Uk0QAhIeChpRVU9UQV9DT05URVhUX1RZUEVfTUVTU0FHRRADEh0KGVFVT1RBX0NPTlRFWFRfVF'
+    'lQRV9USUNLRVQQBBIcChhRVU9UQV9DT05URVhUX1RZUEVfUEFQRVIQBRIfChtRVU9UQV9DT05U'
+    'RVhUX1RZUEVfRVhURVJOQUwQBg==');
+
+@$core.Deprecated('Use quotaAccountTypeDescriptor instead')
+const QuotaAccountType$json = {
+  '1': 'QuotaAccountType',
+  '2': [
+    {'1': 'QUOTA_ACCOUNT_TYPE_UNSPECIFIED', '2': 0},
+    {'1': 'QUOTA_ACCOUNT_TYPE_MEMBER', '2': 1},
+    {'1': 'QUOTA_ACCOUNT_TYPE_CUSTOMER', '2': 2},
+  ],
+};
+
+/// Descriptor for `QuotaAccountType`. Decode as a `google.protobuf.EnumDescriptorProto`.
+final $typed_data.Uint8List quotaAccountTypeDescriptor = $convert.base64Decode(
+    'ChBRdW90YUFjY291bnRUeXBlEiIKHlFVT1RBX0FDQ09VTlRfVFlQRV9VTlNQRUNJRklFRBAAEh'
+    '0KGVFVT1RBX0FDQ09VTlRfVFlQRV9NRU1CRVIQARIfChtRVU9UQV9BQ0NPVU5UX1RZUEVfQ1VT'
+    'VE9NRVIQAg==');
+
+@$core.Deprecated('Use anydoneQuotaTypeDescriptor instead')
+const AnydoneQuotaType$json = {
+  '1': 'AnydoneQuotaType',
+  '2': [
+    {'1': 'ANYDONE_QUOTA_TYPE_UNSPECIFIED', '2': 0},
+    {'1': 'ANYDONE_QUOTA_TYPE_WEB_ASSEMBLY', '2': 1},
+    {'1': 'ANYDONE_QUOTA_TYPE_TICKET', '2': 2},
+    {'1': 'ANYDONE_QUOTA_TYPE_API', '2': 3},
+    {'1': 'ANYDONE_QUOTA_TYPE_LOOKUP', '2': 4},
+    {'1': 'ANYDONE_QUOTA_TYPE_DATA_STORE', '2': 5},
+    {'1': 'ANYDONE_QUOTA_TYPE_CLOUD_STORAGE', '2': 6},
+    {'1': 'ANYDONE_QUOTA_TYPE_KNOWLEDGE_ENGINE', '2': 7},
+    {'1': 'ANYDONE_QUOTA_TYPE_FACE_DETECTION', '2': 8},
+    {'1': 'ANYDONE_QUOTA_TYPE_TEXT_TO_SPEECH', '2': 9},
+    {'1': 'ANYDONE_QUOTA_TYPE_SPEECH_TO_TEXT', '2': 10},
+    {'1': 'ANYDONE_QUOTA_TYPE_OCR', '2': 11},
+    {'1': 'ANYDONE_QUOTA_TYPE_IR', '2': 12},
+    {'1': 'ANYDONE_QUOTA_TYPE_OD', '2': 13},
+    {'1': 'ANYDONE_QUOTA_TYPE_FACE_COMPARISON', '2': 14},
+    {'1': 'ANYDONE_QUOTA_TYPE_TRANSLATION', '2': 15},
+    {'1': 'ANYDONE_QUOTA_TYPE_TEXT_SUMMARIZER', '2': 16},
+    {'1': 'ANYDONE_QUOTA_TYPE_TEXT_GENERATION', '2': 17},
+    {'1': 'ANYDONE_QUOTA_TYPE_CODE_GENERATION', '2': 18},
+    {'1': 'ANYDONE_QUOTA_TYPE_IMAGE_GENERATION', '2': 19},
+    {'1': 'ANYDONE_QUOTA_TYPE_IMAGE_UNDERSTANDING', '2': 20},
+    {'1': 'ANYDONE_QUOTA_TYPE_IMAGE_COMPARISON', '2': 21},
+    {'1': 'ANYDONE_QUOTA_TYPE_SENTIMENT_ANALYSIS', '2': 22},
+    {'1': 'ANYDONE_QUOTA_TYPE_CODE_REVIEW', '2': 23},
+    {'1': 'ANYDONE_QUOTA_TYPE_OUTGOING_MESSAGE', '2': 24},
+    {'1': 'ANYDONE_QUOTA_TYPE_INTELLIGENCE_ACTION', '2': 25},
+  ],
+};
+
+/// Descriptor for `AnydoneQuotaType`. Decode as a `google.protobuf.EnumDescriptorProto`.
+final $typed_data.Uint8List anydoneQuotaTypeDescriptor = $convert.base64Decode(
+    'ChBBbnlkb25lUXVvdGFUeXBlEiIKHkFOWURPTkVfUVVPVEFfVFlQRV9VTlNQRUNJRklFRBAAEi'
+    'MKH0FOWURPTkVfUVVPVEFfVFlQRV9XRUJfQVNTRU1CTFkQARIdChlBTllET05FX1FVT1RBX1RZ'
+    'UEVfVElDS0VUEAISGgoWQU5ZRE9ORV9RVU9UQV9UWVBFX0FQSRADEh0KGUFOWURPTkVfUVVPVE'
+    'FfVFlQRV9MT09LVVAQBBIhCh1BTllET05FX1FVT1RBX1RZUEVfREFUQV9TVE9SRRAFEiQKIEFO'
+    'WURPTkVfUVVPVEFfVFlQRV9DTE9VRF9TVE9SQUdFEAYSJwojQU5ZRE9ORV9RVU9UQV9UWVBFX0'
+    'tOT1dMRURHRV9FTkdJTkUQBxIlCiFBTllET05FX1FVT1RBX1RZUEVfRkFDRV9ERVRFQ1RJT04Q'
+    'CBIlCiFBTllET05FX1FVT1RBX1RZUEVfVEVYVF9UT19TUEVFQ0gQCRIlCiFBTllET05FX1FVT1'
+    'RBX1RZUEVfU1BFRUNIX1RPX1RFWFQQChIaChZBTllET05FX1FVT1RBX1RZUEVfT0NSEAsSGQoV'
+    'QU5ZRE9ORV9RVU9UQV9UWVBFX0lSEAwSGQoVQU5ZRE9ORV9RVU9UQV9UWVBFX09EEA0SJgoiQU'
+    '5ZRE9ORV9RVU9UQV9UWVBFX0ZBQ0VfQ09NUEFSSVNPThAOEiIKHkFOWURPTkVfUVVPVEFfVFlQ'
+    'RV9UUkFOU0xBVElPThAPEiYKIkFOWURPTkVfUVVPVEFfVFlQRV9URVhUX1NVTU1BUklaRVIQEB'
+    'ImCiJBTllET05FX1FVT1RBX1RZUEVfVEVYVF9HRU5FUkFUSU9OEBESJgoiQU5ZRE9ORV9RVU9U'
+    'QV9UWVBFX0NPREVfR0VORVJBVElPThASEicKI0FOWURPTkVfUVVPVEFfVFlQRV9JTUFHRV9HRU'
+    '5FUkFUSU9OEBMSKgomQU5ZRE9ORV9RVU9UQV9UWVBFX0lNQUdFX1VOREVSU1RBTkRJTkcQFBIn'
+    'CiNBTllET05FX1FVT1RBX1RZUEVfSU1BR0VfQ09NUEFSSVNPThAVEikKJUFOWURPTkVfUVVPVE'
+    'FfVFlQRV9TRU5USU1FTlRfQU5BTFlTSVMQFhIiCh5BTllET05FX1FVT1RBX1RZUEVfQ09ERV9S'
+    'RVZJRVcQFxInCiNBTllET05FX1FVT1RBX1RZUEVfT1VUR09JTkdfTUVTU0FHRRAYEioKJkFOWU'
+    'RPTkVfUVVPVEFfVFlQRV9JTlRFTExJR0VOQ0VfQUNUSU9OEBk=');
+
+@$core.Deprecated('Use quotaUnitDescriptor instead')
+const QuotaUnit$json = {
+  '1': 'QuotaUnit',
+  '2': [
+    {'1': 'QUOTA_UNIT_SPECIFIED', '2': 0},
+    {'1': 'QUOTA_UNIT_REQUEST', '2': 1},
+    {'1': 'QUOTA_UNIT_COUNT', '2': 2},
+    {'1': 'QUOTA_UNIT_DURATION', '2': 3},
+    {'1': 'QUOTA_UNIT_CHARACTER', '2': 4},
+    {'1': 'QUOTA_UNIT_TOKEN', '2': 5},
+    {'1': 'QUOTA_UNIT_PAGE', '2': 6},
+    {'1': 'QUOTA_UNIT_IMAGE', '2': 7},
+    {'1': 'QUOTA_UNIT_FACE', '2': 8},
+    {'1': 'QUOTA_UNIT_MESSAGE', '2': 9},
+    {'1': 'QUOTA_UNIT_BYTES', '2': 10},
+  ],
+};
+
+/// Descriptor for `QuotaUnit`. Decode as a `google.protobuf.EnumDescriptorProto`.
+final $typed_data.Uint8List quotaUnitDescriptor = $convert.base64Decode(
+    'CglRdW90YVVuaXQSGAoUUVVPVEFfVU5JVF9TUEVDSUZJRUQQABIWChJRVU9UQV9VTklUX1JFUV'
+    'VFU1QQARIUChBRVU9UQV9VTklUX0NPVU5UEAISFwoTUVVPVEFfVU5JVF9EVVJBVElPThADEhgK'
+    'FFFVT1RBX1VOSVRfQ0hBUkFDVEVSEAQSFAoQUVVPVEFfVU5JVF9UT0tFThAFEhMKD1FVT1RBX1'
+    'VOSVRfUEFHRRAGEhQKEFFVT1RBX1VOSVRfSU1BR0UQBxITCg9RVU9UQV9VTklUX0ZBQ0UQCBIW'
+    'ChJRVU9UQV9VTklUX01FU1NBR0UQCRIUChBRVU9UQV9VTklUX0JZVEVTEAo=');
+
