@@ -23,12 +23,7 @@ class _LoginScreenViewState extends State<LoginScreenView> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                // Image.asset(
-                //   'assets/anydoneText.png',
-                //   height: 100,
-                // ),
                 SizedBox(height: 20),
-
                 Text(
                   "Login",
                   style: TextStyle(

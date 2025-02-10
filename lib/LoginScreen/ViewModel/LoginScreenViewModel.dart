@@ -1,10 +1,9 @@
 import 'package:anydone/LoginScreen/build/auth.pb.dart';
 import 'package:anydone/URLSessionHTTP/URLSessionHTTPClient.dart';
-import 'package:http/http.dart' as http;
 class LoginScreenViewModel {
   late Future<ChallengeRes?>? response;
-  void main()  {
-     response = getChallenge('preskhadahal88@gmail.com', 'password2');
+  void main() async {
+     response = (await getChallenge('preskhadahal88@gmail.com', 'password2')) as Future<ChallengeRes?>?;
   }
   
   bool validateCredentials(String username, String password) {
@@ -15,7 +14,7 @@ class LoginScreenViewModel {
     final challengeCode = ChallengeCode()..email = emailString;
     final challengeReq = ChallengeReq()..challengeCode = challengeCode;
     
-    var url = Uri.https('api.anydone.com', '/co-account/v1/sessions/auth/challenge');
+    var url = Uri.parse("https://api.anydone.com/co-account/v1/sessions/auth/challenge");
     
     try {
       var body = challengeReq.writeToBuffer(); // Protobuf binary

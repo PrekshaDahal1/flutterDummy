@@ -1,12 +1,11 @@
 import 'package:anydone/LoginScreen/build/auth.pb.dart';
-import 'package:anydone/LoginScreen/build/email_template.pb.dart';
 import 'package:http/http.dart' as http;
 
 class ApiService {
   static Map<String, String> requestAddingAnydoneHeaders() {
     return {
-      'Accept': 'application/protobuf',
-      'Content-Type': 'application/protobuf',
+      'Accept': 'application/x-protobuf',
+      'Content-Type': 'application/x-protobuf',
       'Debug-Id': 'ios',
       'X-Anydone-Product': 'ANYDONE_INBOX',
     };
@@ -33,7 +32,7 @@ class ApiService {
   }  else {
     return null;
   }
-  
+
   }
 
 
